@@ -8,3 +8,8 @@ def initialize(name, breed, age)
   @age = age
   @@dogs <<self
 end
+
+def self.all 
+end
+end
+
