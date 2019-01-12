@@ -9,7 +9,7 @@ def initialize(name, breed, age)
   @@dogs <<self
 end
 
-def self.all 
+def self.all
+  @@dogs
 end
 end
-
